@@ -21,11 +21,13 @@ while ch != 9:
             print("Repeated number pattern")
             for i in range(10):
                 print(str(i) * i)
-        case 5: #Needs Fixing
+        case 5:
             print("Floyds Triangle")
+            a = 1
             for i in range(1,10+1):
                 for k in range(1,i):
-                    print(i)
+                    print(a,end = "")
+                    a = a+1
                 print()
             
         
