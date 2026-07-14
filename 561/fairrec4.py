@@ -21,7 +21,7 @@ while ch != 9:
             print("Repeated number pattern")
             for i in range(10):
                 print(str(i) * i)
-        case 5:
+        case 5: #Needs Fixing
             print("Floyds Triangle")
             for i in range(1,10+1):
                 for k in range(1,i):
