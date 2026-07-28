@@ -1,0 +1,8 @@
+r = int(input("Enter radius"))
+print("Area = ", (3.14*r*r))
+l = int(input("Enter length"))
+w = int(input("Enter Width"))
+print("Area of rect = ", (l*w))
+b = int(input("Enter base"))
+h = int(input("Enter height"))
+print("Area of traingle = ",(0.5*b*h))
