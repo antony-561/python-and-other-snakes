@@ -26,8 +26,20 @@ while ch != 9:
             a = 1
             for i in range(1,10+1):
                 for k in range(1,i):
-                    print(a,end = "")
+                    print(a," ",end = "")
                     a = a+1
                 print()
+        case 6:
+            print("Alphabet Triangle")
+            for i in range(1,27):
+                for k in range (0,i):
+                    a = chr(64+i)
+                    print(a, " " , end = " ")
+                print()
+        case 7:
+            print("Multiplication Table")
+            a = int(input("Enter No:"))
+            for i in range(1,10+1):
+                print(i, " * " , a , " = " , i*a)
             
         
