@@ -5,7 +5,7 @@ qlist = """\n 1.Find the factorial of a number
 \n 5.Reverse a number
 \n 6.Find the square of a number
 \n 7.Find the cube of a number
-\n 8.Exit
+\n 0.Exit
 """
 def findFact():
     print("Factorial of a number")
