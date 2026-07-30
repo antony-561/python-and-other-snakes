@@ -1,6 +1,0 @@
-a = int(input("enter no a"))
-b = int(input("enter no b"))
-print("Sum = ",a+b)
-print("Diff = ", a-b)
-print("Product = ", a*b)
-print("Quoti = ", a/b)
