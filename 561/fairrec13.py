@@ -19,7 +19,7 @@ def checkDot(email):
     if loc > checkAt(em):
         return loc
     else:
-        print("HELOOOOO")
+        print("Dot not present")
         return 0
     
 def checkDom(email):
@@ -41,9 +41,10 @@ def checkSpc(email):
         return
         
 
-        
-email = input("Enter Mail id")
-checkAt(email)
-checkSpc(email)
-checkDot(email)
-checkDom(email)
+def valEmail():    
+    email = input("Enter Mail id")
+    checkAt(email)
+    checkSpc(email)
+    checkDot(email)
+    checkDom(email)
+
