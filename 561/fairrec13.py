@@ -28,9 +28,7 @@ def checkDom(email):
     for i in doms:
         if i in em:
             if email.index(i) >= checkDot(em):
-                print("@ is Valid")
-                print("Dot is valid")
-                print("Domain Valid")
+                print("It is a valid Email Address!")
                 return
         else:
             print("Domain Invalid")
@@ -38,9 +36,10 @@ def checkDom(email):
 def checkSpc(email):
     em = email
     if ' ' in em:
-        print("Space found")
+        print("Domain invalid: Space Found")
     else:
-        print("No Space")
+        return
+        
 
         
 email = input("Enter Mail id")
