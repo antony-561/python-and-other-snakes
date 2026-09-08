@@ -63,7 +63,12 @@ while ch != 6:
                 mydb.commit()
             else:
                 print("Table not created")
+        case 5:
+            sqlq = "select * from std1"
+            c1.execute(sqlq)
+            recs = c1.fetchall()
+            for r in recs:
+                print(r[0],r[1],r[2])
             
-
 c1.execute("drop table std1")
 mydb.commit()
