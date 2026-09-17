@@ -12,3 +12,4 @@ sqlq = "create table student1(roll int, name varchar(20));"
 
 curs.execute(sqlq)
 mydb.commit()
+
